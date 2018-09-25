@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.container {
+	max-width: 80vw;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 20% 80%;
+}
+.second-container {
+	display: grid;
+	grid-template-columns: 60% 30%;
+	grid-column-gap: 10%;
+	justify-content: center;
+}
+.aside {
+	background: #181e22;
+	color: white;
+	padding-left: 15px;
+
+}
+.playlist a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	margin: 10px 15px;
+}
+.friend {
+	display: flex;
+	align-items: center;
+}
+.friend img {
+	max-width: 40px;
+	border-radius: 50%;
+}
+.friend p {
+	margin-left: 10px;
+}
+.video {
+	border-bottom: 3px solid rgba(187,187,187, .8);
+}
+.video img {
+	width: 100%;
+}
+.description {
+	padding-left: 10px;
+	padding-bottom: 20px;
+
+}
+.description .views {
+	color: rgba(0,0,0, .5);
+}
+.sub-menu {
+	display: flex;
+	align-items: center;
+}
+.actions {
+	display: flex;
+}
+.actions .addList {
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	background: #e65349;
+	color: white;
+	margin-right: 40px;
+	cursor: pointer;
+}
+.actions a {
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	text-decoration: none;
+	color: rgba(0,0,0, .8);
+	margin-right: 20px;
+}
+.keywords button {
+	width: 100px;
+	border: none;
+	border-radius: 15px;
+	text-decoration: none;
+	color: white;
+	padding: 5px 12px;
+	cursor: pointer;
+}
+.comments {
+	margin: 0 auto;
+}
+.comment {
+	text-align: center;
+
+}
+.comments input {
+	width: 80%;
+	padding: 10px 5px;
+	border-radius: 5px;
+	border: none;
+	box-sizing: border-box;
+}
+.suggestions {
+}
+.suggestions a {
+
+	text-decoration: none;
+	color: black;
+	margin-bottom: 20px;
+}
+.suggestion img {
+	display: block;
+	width: 250px;
+}
+.electronic { background: rgb(87,55,124); }
+.hoc { background: rgb(0,251,219); }
+.eigthies { background: rgb(195,61,61); }
+.rela { background: rgb(149,6,68); }
